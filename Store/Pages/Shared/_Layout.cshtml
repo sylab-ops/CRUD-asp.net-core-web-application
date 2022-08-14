@@ -33,6 +33,7 @@
                     <li><a asp-page="/Index">Home</a></li>
                     <li><a asp-page="/About">About</a></li>
                     <li><a asp-page="/Contact">Contact</a></li>
+                    <li><a asp-page="/Clients/Index">Clients</a></li>
                 </ul>
             </div>
         </div>
@@ -47,7 +48,7 @@
             <p>&copy; 2022 - Store</p>
         </footer>
     </div>
-
+    
     <environment include="Development">
         <script src="~/lib/jquery/dist/jquery.js"></script>
         <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
@@ -70,5 +71,7 @@
     </environment>
 
     @RenderSection("Scripts", required: false)
+
 </body>
+
 </html>
